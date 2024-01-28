@@ -38,21 +38,21 @@
     </nav>
 
     <section id="home" class="home container">
-      <div class="row d-flex align-items-center">
-        <div class="col-8">
+      <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+        <div class="col-12 col-md-8">
           <h3 class="fw-semibold">Hi, I am</h3>
           <h1 class="fw-bold">Aulia</h1>
           <p>I am a Front-end development in Indonesia</p>
           <a class="btn button" href="assets/images/potrait.png" download="">Resume</a>
         </div>
-        <div class="col-4">
-          <img class="imghome" src="assets/images/potrait.png" alt="Potrait" />
+        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
+          <img src="assets/images/potrait.png" alt="Potrait" />
         </div>
       </div>
-      <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-        <a class="text-decoration-none text-dark" href="#about">More Info</a>
+      <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+        <div class="text-dark">More Info</div>
         <img id="arrow" class="mt-2" src="assets/images/arrow.svg" alt="arrow icon" />
-      </div>
+      </a>
     </section>
 
     <section id="about" class="about container">
@@ -90,13 +90,13 @@
 
     <section id="work" class="work container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-5">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eaque voluptate est asperiores deserunt voluptatibus cumque tenetur aliquam. Laudantium modi qui necessitatibus reiciendis ab id veritatis in, excepturi suscipit
             explicabo dolores dolorum expedita assumenda eaque, sint officia est officiis architecto doloremque non commodi et! Soluta sequi magni natus delectus cum.
           </p>
         </div>
-        <div class="col work-img">
+        <div class="col-12 col-6 work-img">
           <div id="work-1" class="work-img-item">
             <img src="assets/images/work-1.png" alt="work 1" />
           </div>
@@ -112,27 +112,27 @@
 
     <section id="contact" class="contact container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-5">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolore asperiores soluta facilis accusamus atque. Non nisi ut quisquam eveniet, nihil commodi quas pariatur eos libero sed totam explicabo amet debitis beatae ex unde
             iure sapiente dolorum consequuntur labore, natus aut molestias fugiat! Vel neque obcaecati doloremque error nobis minus?
           </p>
           <div class="row">
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Facebook.svg" alt="Facebook Icon" />
-              <p>Aulia</p>
+              <img class="w-25" src="assets/images/Facebook.svg" alt="Facebook Icon" />
+              <p class="mb-0 ms-2">Aulia</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Instagram.svg" alt="Instagram Icon" />
-              <p>@Aulia12345</p>
+              <img class="w-25" src="assets/images/Instagram.svg" alt="Instagram Icon" />
+              <p class="mb-0 ms-2">@Aulia12345</p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="assets/images/Twitter.svg" alt="Twitter Icon" />
-              <p>@Aulia123</p>
+              <img class="w-25" src="assets/images/Twitter.svg" alt="Twitter Icon" />
+              <p class="mb-0 ms-2">@Aulia123</p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-5">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>
