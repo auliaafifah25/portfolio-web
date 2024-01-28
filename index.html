@@ -21,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -106,6 +106,50 @@
           <div id="work-3" class="work-img-item">
             <img src="assets/images/work-3.png" alt="work 3" />
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolore asperiores soluta facilis accusamus atque. Non nisi ut quisquam eveniet, nihil commodi quas pariatur eos libero sed totam explicabo amet debitis beatae ex unde
+            iure sapiente dolorum consequuntur labore, natus aut molestias fugiat! Vel neque obcaecati doloremque error nobis minus?
+          </p>
+          <div class="row">
+            <div class="col d-flex align-items-center">
+              <img src="assets/images/Facebook.svg" alt="Facebook Icon" />
+              <p>Aulia</p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="assets/images/Instagram.svg" alt="Instagram Icon" />
+              <p>@Aulia12345</p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="assets/images/Twitter.svg" alt="Twitter Icon" />
+              <p>@Aulia123</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <form class="contact-form" onsubmit="onFormSubmit(event)">
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="example@gmail.com" required />
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required />
+            </div>
+            <div class="mb-3">
+              <label for="inp_message" class="form-label">Message</label>
+              <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required />
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="submit" class="btn button">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
